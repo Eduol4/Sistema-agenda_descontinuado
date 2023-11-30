@@ -3,19 +3,20 @@ body{
 }
 
 .titulo {
-    background-color: gray;
-    border-radius: 8px;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-h1 {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
     font-size: 45px;
-    color: white;
-    padding-top: 15px;
     padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 6.5px;
+    border-color: white;
+    color: rgb(255, 44, 146);
+    background-color: rgb(204, 204, 204);
 }
 
 table {
@@ -28,6 +29,40 @@ table {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+.menu {
+    display: flex;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 45px;
+}
+.h2Menu {
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 6.5px;
+    color: black;
+    background-color: rgb(204, 204, 204);
+}
+.opcoes {
+    display: flex;
+    justify-content: center;
+}
+.botaoMenu {
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.jayStrong {
+    color:rgb(32, 132, 7);
+}
+.vicStrong {
+    color: rgb(10, 126, 204);
+}
+
 .nome {
     display: flex;
     justify-content: center;
@@ -43,16 +78,6 @@ table {
     padding-right: 50px;
     border-radius: 6.5px;
     color: rgb(255, 44, 146);
-    background-color: rgb(204, 204, 204);
-}
-.jay {
-    background-color: white;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 6.5px;
-    color: rgb(32, 132, 7);
     background-color: rgb(204, 204, 204);
 }
 .vic {
@@ -78,18 +103,7 @@ table {
     padding-bottom: 10px;
     margin: 0px;
 }
-.horariosJay {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
-    color: rgb(32, 132, 7);
-    border: 2px solid;
-    border-color: black;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0px;
-}
+
 .horariosVic {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 27px;
@@ -116,19 +130,7 @@ table {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.diasJay {
-    display: flex;
-    align-items: flex-start;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 27px;
-    color: rgb(32, 132, 7);
-    border: 2px solid;
-    border-color: black;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
 .diasVic {
     display: flex;
     align-items: flex-start;
@@ -155,18 +157,7 @@ table {
     padding-bottom: 30px;
     margin: 0px;
 }
-.horasJay{
-    display: flex;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-    color: rgb(32, 132, 7);
-    border: 2px solid;
-    border-color: black;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 0px; 
-}
+
 .horasVic {
     display: flex;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

@@ -10,3 +10,7 @@ Versão - 1.0.1
 
 Versão 1.0.3
 -29.11.2023. Adicionado os primeiros protótipos estruturais dos botões responsáveis por adicionar os nomes ao longo dos dias e horários. Estlização básica de cores entre sessões das agendas ** (RECODE).
+
+Versão 1.0.4
+-30.11.2023. Adicionado botões de menu para o usuário poder selecionar qual das 3 agendas quer usar. Separadas as 3 agendas em 3 páginas diferentes, que podem ser acessadas por botões de menu. Excluída a versão antiga. Apenas a agenda de "Paula" e "Jay" foram criadas e estão quase no mesmo nível. ** (RECODE).
+<-- FIM DA VERSÃO ANTIGA -->
