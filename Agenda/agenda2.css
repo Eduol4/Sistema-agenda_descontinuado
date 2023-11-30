@@ -66,10 +66,10 @@ table {
     background-color: rgb(204, 204, 204);
 }
 
-.horarios {
+.horariosPaula {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 27px;
-    color: purple;
+    color: rgb(255, 44, 146);
     border: 2px solid;
     border-color: black;
     padding-left: 5px;
@@ -78,12 +78,37 @@ table {
     padding-bottom: 10px;
     margin: 0px;
 }
-.dias {
+.horariosJay {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    color: rgb(32, 132, 7);
+    border: 2px solid;
+    border-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+.horariosVic {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    color: rgb(10, 126, 204);
+    border: 2px solid;
+    border-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.diasPaula {
     display: flex;
     align-items: flex-start;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 27px;
-    color: darkblue;
+    color: rgb(255, 44, 146);
     border: 2px solid;
     border-color: black;
     padding-left: 35px;
@@ -91,15 +116,75 @@ table {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.horas {
+.diasJay {
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    color: rgb(32, 132, 7);
+    border: 2px solid;
+    border-color: black;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.diasVic {
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    color: rgb(10, 126, 204);
+    border: 2px solid;
+    border-color: black;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.horasPaula {
     display: flex;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-    color: darkblue;
+    color: rgb(255, 44, 146);
     border: 2px solid;
     border-color: black;
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 0px;
+}
+.horasJay{
+    display: flex;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: rgb(32, 132, 7);
+    border: 2px solid;
+    border-color: black;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px; 
+}
+.horasVic {
+    display: flex;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: rgb(10, 126, 204);
+    border: 2px solid;
+    border-color: black;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+.sessao {
+    border: 2px solid;
+    border-color: black;
+}
+.botao {
+    display: flex;
+    justify-content: center;
 }
