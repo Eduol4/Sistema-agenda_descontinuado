@@ -14,3 +14,7 @@ Versão 1.0.3
 Versão 1.0.4
 -30.11.2023. Adicionado botões de menu para o usuário poder selecionar qual das 3 agendas quer usar. Separadas as 3 agendas em 3 páginas diferentes, que podem ser acessadas por botões de menu. Excluída a versão antiga. Apenas a agenda de "Paula" e "Jay" foram criadas e estão quase no mesmo nível. ** (RECODE).
 <-- FIM DA VERSÃO ANTIGA -->
+
+Pra quem está lendo isso, esse foi um projeto pessoal mesmo, onde eu tentava criar um sistema simples de agenda. No momento se encontra descontinuado.
+
+If anyone is reading this, this is a personal project of mine, where I tried to create a simple "agenda". I currently have no plans of continuing it.
